@@ -1,12 +1,12 @@
 /* 
-   问题描述 : 
-		Ackermann函数A(m,n)定义如下：
-			A(m,n) = {
-						n+1,       			m=0;
-						A(m-1, 1)  			m>0, n=0;
-						A(m-1, A(m, n-1)) 	m>0, n>0;
-					 } 
-		设计并完成A(m, n)的算法实现。 
+    问题描述 : 
+        Ackermann函数A(m,n)定义如下：
+	    A(m,n) = {
+                        n+1,                m=0;
+                        A(m-1, 1)           m>0, n=0;
+                        A(m-1, A(m, n-1))   m>0, n>0;
+                     } 
+        设计并完成A(m, n)的算法实现。 
 */ 
 
 #include <iostream>
