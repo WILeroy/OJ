@@ -68,7 +68,7 @@ void merge(int l, int mid, int r)
             a3_[k] = a3[j++];
         }
     }
-    //再将已经排好序的辅助数组中的值复制到原数组中
+    //copy sorted array.
     for (int k = l; k <= r; k++) {
         a[k] = a_[k];
         a3[k] = a3_[k];
